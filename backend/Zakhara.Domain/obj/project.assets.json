@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\quaza\\Documents\\Software\\zakhara\\backend\\Zakhara\\Zakhara.csproj",
-      "projectName": "Zakhara",
-      "projectPath": "C:\\Users\\quaza\\Documents\\Software\\zakhara\\backend\\Zakhara\\Zakhara.csproj",
+      "projectUniqueName": "C:\\Users\\quaza\\Documents\\Software\\zakhara\\backend\\Zakhara.Domain\\Zakhara.Domain.csproj",
+      "projectName": "Zakhara.Domain",
+      "projectPath": "C:\\Users\\quaza\\Documents\\Software\\zakhara\\backend\\Zakhara.Domain\\Zakhara.Domain.csproj",
       "packagesPath": "C:\\Users\\quaza\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\quaza\\Documents\\Software\\zakhara\\backend\\Zakhara\\obj\\",
+      "outputPath": "C:\\Users\\quaza\\Documents\\Software\\zakhara\\backend\\Zakhara.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -59,9 +59,6 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
-          "Microsoft.AspNetCore.App": {
-            "privateAssets": "none"
-          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }

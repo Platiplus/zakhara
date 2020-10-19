@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\quaza\\Documents\\Software\\zakhara\\backend\\Zakhara\\Zakhara.csproj": {}
+    "C:\\Users\\quaza\\Documents\\Software\\zakhara\\backend\\Zakhara.Tests\\Zakhara.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\quaza\\Documents\\Software\\zakhara\\backend\\Zakhara\\Zakhara.csproj": {
+    "C:\\Users\\quaza\\Documents\\Software\\zakhara\\backend\\Zakhara.Tests\\Zakhara.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\quaza\\Documents\\Software\\zakhara\\backend\\Zakhara\\Zakhara.csproj",
-        "projectName": "Zakhara",
-        "projectPath": "C:\\Users\\quaza\\Documents\\Software\\zakhara\\backend\\Zakhara\\Zakhara.csproj",
+        "projectUniqueName": "C:\\Users\\quaza\\Documents\\Software\\zakhara\\backend\\Zakhara.Tests\\Zakhara.Tests.csproj",
+        "projectName": "Zakhara.Tests",
+        "projectPath": "C:\\Users\\quaza\\Documents\\Software\\zakhara\\backend\\Zakhara.Tests\\Zakhara.Tests.csproj",
         "packagesPath": "C:\\Users\\quaza\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\quaza\\Documents\\Software\\zakhara\\backend\\Zakhara\\obj\\",
+        "outputPath": "C:\\Users\\quaza\\Documents\\Software\\zakhara\\backend\\Zakhara.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -41,6 +41,24 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -52,9 +70,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\quaza\\Documents\\Software\\zakhara\\backend\\Zakhara\\Zakhara.csproj": {}
+    "C:\\Users\\quaza\\Documents\\Software\\zakhara\\backend\\Zakhara.Infra\\Zakhara.Infra.csproj": {}
   },
   "projects": {
-    "C:\\Users\\quaza\\Documents\\Software\\zakhara\\backend\\Zakhara\\Zakhara.csproj": {
+    "C:\\Users\\quaza\\Documents\\Software\\zakhara\\backend\\Zakhara.Infra\\Zakhara.Infra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\quaza\\Documents\\Software\\zakhara\\backend\\Zakhara\\Zakhara.csproj",
-        "projectName": "Zakhara",
-        "projectPath": "C:\\Users\\quaza\\Documents\\Software\\zakhara\\backend\\Zakhara\\Zakhara.csproj",
+        "projectUniqueName": "C:\\Users\\quaza\\Documents\\Software\\zakhara\\backend\\Zakhara.Infra\\Zakhara.Infra.csproj",
+        "projectName": "Zakhara.Infra",
+        "projectPath": "C:\\Users\\quaza\\Documents\\Software\\zakhara\\backend\\Zakhara.Infra\\Zakhara.Infra.csproj",
         "packagesPath": "C:\\Users\\quaza\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\quaza\\Documents\\Software\\zakhara\\backend\\Zakhara\\obj\\",
+        "outputPath": "C:\\Users\\quaza\\Documents\\Software\\zakhara\\backend\\Zakhara.Infra\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -52,9 +52,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
