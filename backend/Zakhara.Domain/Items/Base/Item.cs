@@ -2,12 +2,13 @@
 
 namespace Zakhara.Domain.Items.Base
 {
-	class Item
+	public abstract class Item
 	{
+		// PROPERTIES
 		public Guid Id { get; set; }
 		public bool Consumable { get; set; }
-		public String Description { get; set; }
-		public String Name { get; set; }
+		public string Description { get; set; }
+		public string Name { get; set; }
 		public float Price { get; set; }
 		public float Weight { get; set; }
 	}
