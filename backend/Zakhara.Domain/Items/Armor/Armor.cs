@@ -6,7 +6,7 @@ namespace Zakhara.Domain.Items.Armor
 	public class Armor : Item
 	{
 		// PROPERTIES
-		public Guid Id { get; set; }
+		public new Guid Id { get; set; }
 		public Guid ItemId { get; set; }
 		public string ArmorClass { get; set; }
 		public ArmorType ArmorType { get; set; }
